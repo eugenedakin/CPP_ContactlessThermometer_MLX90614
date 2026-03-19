@@ -11,7 +11,8 @@ Ensure the I2C communication protocol is enabled on the Raspberry Pi. The below 
 Installation instructions:
 1) Install Raspberry Pi OS (64-bit)
 2) Open a terminal and type the following commands:
-3) 
+3) sudo apt install libwxgtk3.2-dev build-essential
+4) sudo apt install -y libi2c-dev
 
 
 Use I2Cdetect -y 1 to confirm the MLX90614 is available at I2C hexadecimal address 5A.
